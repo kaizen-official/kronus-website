@@ -1,0 +1,107 @@
+{
+    "brand": {
+        "name": "Kronus Infratech & Consultants",
+        "location": "Sonipat, Haryana"
+    },
+    "brand_voice": {
+        "slogan": "An address that outlives time — crafted for legacy in Sonipat.",
+        "personality_traits": [
+            "Professional and authoritative",
+            "Authentic and genuine",
+            "Trust Built In",
+            "Positive and optimistic",
+            "Purpose with Precision"
+        ],
+        "description": "Kronus Infratech & Consultants crafts legacies by blending refined engineering with timeless aesthetics. Rooted in integrity and driven by innovation, redefining luxury in Sonipat."
+    },
+    "logo": {
+        "full_logo": "/logo.png",
+        "icon": "/logo_circular.png"
+    },
+    "color_palette": {
+        "important": "The Major Primary Background Color is always White (#FFFFFF) to maintain a clean and minimalistic aesthetic.",
+        "primary_colors": [
+            {
+                "name": "Dark Gray",
+                "hex": "#4A4A4A",
+                "meaning": "Professional and authoritative"
+            },
+            {
+                "name": "Cape Palliser",
+                "hex": "#A07558",
+                "meaning": "Trust Built In"
+            },
+            {
+                "name": "Yellow-Green",
+                "hex": "#8DC63F",
+                "meaning": "Positive and optimistic"
+            },
+            {
+                "name": "Spanish Gray",
+                "hex": "#9E9E9E",
+                "meaning": "Purpose with Precision"
+            },
+            {
+                "name": "Teal",
+                "hex": "#009688",
+                "meaning": "Authentic and genuine"
+            },
+            {
+                "name": "Sunshade",
+                "hex": "#FBB03B",
+                "meaning": "Legacy Luxury"
+            }
+        ],
+        "color_usage_rule": "60-30-10",
+        "contrast_guidelines": {
+            "background": "Base colors for layout",
+            "structure": "Text and headers",
+            "accent": "CTA and highlights"
+        },
+        "corner_radius": "Always use corner radius / border radius of lg (ex: rounded-lg in Tailwind CSS) for all elements to maintain a consistent and cohesive design language across the website."
+    },
+    "typography": {
+        "primary_font_system_1": {
+            "headline": "Clash Display",
+            "body": "Satoshi",
+            "tone": [
+                "Statement",
+                "Luxury",
+                "Trust",
+                "Precision"
+            ]
+        },
+        "primary_font_system_2": {
+            "headline": "Cabinet Grotesk",
+            "body": "General Sans",
+            "tone": [
+                "Industrial",
+                "Sharp",
+                "Rational",
+                "Robust"
+            ]
+        },
+        "usage": {
+            "hero_heading": "Headline font (Bold/Semibold)",
+            "body_text": "Body font (Regular/Medium)",
+            "cta_buttons": "Body font Medium/Bold",
+            "navigation": "Body font Medium"
+        }
+    },
+    "social_media": {
+        "platforms": [
+            {
+                "name": "YouTube",
+                "link": "https://www.youtube.com/@kronusinfratech"
+            },
+            {
+                "name": "Instagram",
+                "link": "https://www.instagram.com/kronus_infratech"
+            },
+            {
+                "name": "Facebook",
+                "link": "https://www.facebook.com/Kronusinfra"
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-dark-gray: #4A4A4A;
+  --color-cape-palliser: #A07558;
+  --color-yellow-green: #8DC63F;
+  --color-spanish-gray: #9E9E9E;
+  --color-teal: #009688;
+  --color-sunshade: #FBB03B;
+  --color-warm-bg: #FAF8F5;
+  --color-warm-card: #F3EDE7;
+  --font-heading: var(--font-clash-display);
+  --font-body: var(--font-satoshi);
+}
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FFFFFF;
+  color: #4A4A4A;
+  font-family: var(--font-body), system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+::selection {
+  background: #009688;
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #009688;
+  border-radius: 3px;
+}
+
+/* Utility: thin horizontal rule matching brand warmth */
+.brand-rule {
+  height: 1px;
+  background: #E8DDD3;
+}
+
+button {
+  cursor: pointer;
+}
