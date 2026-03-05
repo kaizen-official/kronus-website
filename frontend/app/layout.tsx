@@ -54,6 +54,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <title>Kronus Infratech & Consultants</title>
+        <meta name="description" content="An address that outlives time — crafted for legacy in Sonipat." />
+
+        <meta property="og:url" content="https://www.kronusinfra.org/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Kronus Infratech & Consultants/" />
+        <meta property="og:description" content="An address that outlives time — crafted for legacy in Sonipat." />
+        <meta property="og:image" content="https://kronusinfra.org/og-image.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="kronusinfra.org" />
+        <meta property="twitter:url" content="https://www.kronusinfra.org/" />
+        <meta name="twitter:title" content="Kronus Infratech & Consultants" />
+        <meta name="twitter:description" content="An address that outlives time — crafted for legacy in Sonipat." />
+        <meta name="twitter:image" content="https://kronusinfra.org/og-image.png" />
+
+      </head>
       <body className={`${spaceGrotesk.variable} ${dmSans.variable} antialiased`}>
         <Header />
         {children}
