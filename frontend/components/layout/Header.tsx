@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useMediaQuery } from "usehooks-ts"
 
 const NAV_LINKS = [
     { label: "Home", href: "/" },
@@ -17,6 +18,7 @@ const NAV_LINKS = [
 export default function Header() {
     const [scrolled, setScrolled] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
+    const isDesktop = useMediaQuery("(min-width: 768px)");
 
     useEffect(() => {
         const onScroll = () => setScrolled(window.scrollY > 60);
@@ -31,15 +33,15 @@ export default function Header() {
                 animate={{ y: 0 }}
                 transition={{ duration: 0.5 }}
                 className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
-                        ? "bg-white/90 backdrop-blur-md shadow-sm border-b border-dark-gray/6"
-                        : "bg-transparent"
+                    ? "bg-white/90 backdrop-blur-md shadow-sm border-b border-dark-gray/6"
+                    : "bg-transparent"
                     }`}
             >
                 <nav aria-label="Main navigation" className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
                     {/* Logo */}
                     <Link href="/" aria-label="Kronus Infratech — Home">
                         <Image
-                            src="/logo.png"
+                            src={isDesktop ? (scrolled ? "/logo.png" : "/logo_white.png") : "/logo.png"}
                             alt="Kronus Infratech logo"
                             width={150}
                             height={40}

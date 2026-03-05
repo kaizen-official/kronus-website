@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { MapPin, Bed, Bath, Maximize, ArrowRight } from "lucide-react";
 import Image from "next/image";
-import PROPERTIES from "../data/properties";
+import PROPERTIES from "../../data/properties";
 import Link from "next/link";
 
 const stagger = { hidden: {}, visible: { transition: { staggerChildren: 0.1 } } };
