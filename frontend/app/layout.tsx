@@ -35,6 +35,15 @@ export const metadata: Metadata = {
     description: "An address that outlives time — crafted for legacy in Sonipat.",
     type: "website",
     locale: "en_IN",
+    url: "https://kronusinfra.com",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Kronus Infratech luxury residence exterior showcasing modern architecture in Sonipat",
+      }
+    ]
   },
 };
 

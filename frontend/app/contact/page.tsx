@@ -244,7 +244,8 @@ function HeroBanner() {
         <section ref={ref} className="relative h-[70vh] min-h-80 flex items-center justify-center overflow-hidden">
             <motion.div className="absolute inset-0 will-change-transform" style={{ y: imgY }}>
                 <img
-                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80"
+                    // src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80"
+                    src="/contact-hero.png"
                     alt="Modern office interior representing Kronus Infratech's welcoming workspace"
                     className="w-full h-[130%] object-cover"
                 />

@@ -59,7 +59,8 @@ function HeroBanner() {
         <section ref={ref} className="relative h-[70vh] min-h-80 flex items-center justify-center overflow-hidden">
             <motion.div className="absolute inset-0 will-change-transform" style={{ y: imgY }}>
                 <img
-                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80"
+                    // src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80"
+                    src="/projects-hero.png"
                     alt="Modern luxury real estate development by Kronus Infratech"
                     className="w-full h-[130%] object-cover"
                 />
